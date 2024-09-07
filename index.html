@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="form.js"></script>
+</head>
+<body>
+    <div class="glass-center">
+        <form name="myform" action="#" onsubmit="return formvalidation()">
+            <h1>DETAILS</h1>
+            <div class="input-feild">
+                 <input type="text" name="Name" required>
+                <label for="">Enter Name</label>
+            </div>
+            <div class="input-feild">
+                 <input type="email" name="Email_id" required>
+                <label for="">Enter the mail</label>
+            </div>
+            <div class="input-feild">
+                <input type="tel" name="number" required>
+               <label for="">Enter the phone number</label>
+           </div>
+            <div class="input-feild">
+                 <input type="password" name="Password" required>
+                <label for="">Enter the password</label>
+            </div>
+            <div class="check-box"><input type="checkbox"  id="remember">REMEMBER ME  <a href="">Forgot password?</a> </div>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+        <div class="check">Don't have an account?  <a href="">REGISTER</a></div>
+    </div>
+    
+    
+    
+</body>
+</html>
